@@ -17,3 +17,8 @@ git clone https://github.com/alireza1992/snappmarket-test-case.git
 
 unit test run command :
 vendor/bin/phpunit tests/Unit/LoginTest.php 
+
+for web register/login :
+1-composer require laravel/ui
+2-php artisan ui vue --auth
+
