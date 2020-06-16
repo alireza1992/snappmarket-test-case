@@ -14,6 +14,12 @@ use App\Models\Product;
 
 class CsvController
 {
+
+    public function __construct()
+    {
+
+    }
+
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
