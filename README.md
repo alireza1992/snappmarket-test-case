@@ -15,6 +15,10 @@ composer,
 installation :
 git clone https://github.com/alireza1992/snappmarket-test-case.git
 
+docker :
+docker-compose up -d nginx php mysql phpmyadmin
+
+
 unit test run command :
 vendor/bin/phpunit tests/Unit/LoginTest.php 
 
