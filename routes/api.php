@@ -19,7 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::post('register', 'AuthController@register');
+Route::post('register-api', 'AuthController@register');
 Route::post('login', 'AuthController@authenticate');
 Route::get('open', 'DataController@open');
 Route::resource('product', 'Api\ProductController');

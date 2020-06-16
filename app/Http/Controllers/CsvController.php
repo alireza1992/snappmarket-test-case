@@ -10,14 +10,21 @@ namespace App\Http\Controllers;
 
 
 use App\Http\Requests\CsvRequest;
-use App\Models\Product;
+use App\Services\CsvServices;
 
+/**
+ * @property CsvServices csvServices
+ */
 class CsvController
 {
 
-    public function __construct()
+    /**
+     * CsvController constructor.
+     * @param CsvServices $csvServices
+     */
+    public function __construct(CsvServices $csvServices)
     {
-
+        $this->csvServices = $csvServices;
     }
 
     /**
@@ -30,29 +37,13 @@ class CsvController
 
     /**
      * @param CsvRequest $request
+     * @return \Exception|\Illuminate\Http\JsonResponse
      */
     public function storeCsv(CsvRequest $request)
     {
         $path = $request->file('csv')->getRealPath();
+        return $this->csvServices->saveCsv($path);
 
-        $file=\PhpOffice\PhpSpreadsheet\IOFactory::load($path);
-        $sheet = $file->getActiveSheet()->toArray();
-        $header = $sheet[0];
-
-        $headerRow = true;
-        $arrayData = [];
-
-        foreach ($sheet as $index => $row) {
-            if ($headerRow) {
-                $arrayData[] = $row;
-                $headerRow = false;
-                continue;
-            }
-
-            $array = array_combine($header, $row);
-            Product::create($array);
-        }
-    echo "success";
 
     }
 }

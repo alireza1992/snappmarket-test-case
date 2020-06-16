@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+
 /**
  * @property  name
  * @property  category_id
@@ -13,7 +14,7 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     protected $fillable = [
-        'name', 'category_id', 'price','description','stock'
+        'name', 'category_id', 'price', 'description', 'stock'
     ];
 
     /**
@@ -28,10 +29,10 @@ class Product extends Model
      * @param $query1
      * @param $category
      */
-    public function scopeCategoryFilter($query1,$category)
+    public function scopeCategoryFilter($query1, $category)
     {
-        $query1->with('category')->whereHas('category',function ($query) use($category){
-            return $query->where('name','LIKE',$category);
+        $query1->with('category')->whereHas('category', function ($query) use ($category) {
+            return $query->where('name', 'LIKE', $category);
         });
 
 

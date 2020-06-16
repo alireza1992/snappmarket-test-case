@@ -19,8 +19,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/upload', 'CsvController@upload')->middleware('admin');
-Route::post('/store-csv', 'CsvController@storeCsv')->name('store-csv')->middleware('admin');
+Route::get('/upload', 'CsvController@upload');
+Route::post('/store-csv', 'CsvController@storeCsv')->name('store-csv');
 
 
 Route::get('/access-error', 'HomeController@accessError');
