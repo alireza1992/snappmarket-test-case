@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0698fb4d-1c83-4f49-9923-1c0df37bd6e8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Services/CsvServices.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CsvController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CsvController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/db/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/db/ib_logfile1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/db/ib_logfile1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/db/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/db/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/db/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/db/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/db/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/db/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/db/mysql/innodb_table_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/db/snappmarket_test/users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mysql/db/snappmarket_test/users.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/logs/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="0698fb4d-1c83-4f49-9923-1c0df37bd6e8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+            <state relative-caret-position="80">
+              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
               <folding>
                 <element signature="e#40#74#0#PHP" expanded="true" />
               </folding>
@@ -55,7 +38,7 @@
       <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Models/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="471">
               <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
             </state>
           </provider>
@@ -73,8 +56,8 @@
       <file leaf-file-name="CsvController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CsvController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="505">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
               <folding>
                 <element signature="e#125#158#0#PHP" expanded="true" />
               </folding>
@@ -82,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvServices.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CsvServices.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Services/CsvServices.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -200,8 +183,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Http/Models/Product.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CsvController.php" />
         <option value="$PROJECT_DIR$/app/Services/CsvServices.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CsvController.php" />
       </list>
     </option>
   </component>
@@ -408,12 +391,12 @@
       <workItem from="1592070199230" duration="9277000" />
       <workItem from="1592161827505" duration="5287000" />
       <workItem from="1592246627140" duration="3535000" />
-      <workItem from="1592293474180" duration="4929000" />
+      <workItem from="1592293474180" duration="5162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25148000" />
+    <option name="totallyTimeSpent" value="25381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -425,8 +408,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49880952" visible="true" weight="0.24248497" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15297619" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49880952" visible="true" weight="0.24248497" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15297619" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -764,23 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="e#40#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Models/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
@@ -813,22 +779,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CsvController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#125#158#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Services/CsvServices.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
             <element signature="e#384#662#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CsvController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="e#125#158#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Models/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="e#40#74#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
